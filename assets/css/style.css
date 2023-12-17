@@ -1,66 +1,143 @@
    * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     padding: 0px;
     margin: 10px;
     border-radius: 30px;
-    /* box-shadow: 10px 10px 10px rgb(100, 0, 102); */
     
 }
 
-body {
-    background-color: #daffb6;
-}
 
+
+body {
+    background-color: gray;
+    
+}
 /* added flex container for title */
+/* centered contents in .toptitle content box */
 .toptitle {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: linear-gradient(purple, blue);
+    margin: auto;
+    padding: 20px; 
+    width: fit-content;
+    background-image: linear-gradient(green, rgb(150, 0, 142));
     color: #ffb5f9;
     font-size: 45px;
+   
 }
 
-main .main-header h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #072d07a8;
+.main-header {
+    margin: auto;
+    width: fit-content;
+    background-color: #248474;
     color: #ffffff;
     font-size: 30px; 
     padding: 20px;
-}
-
-
-main .main-header h2 nav ul li a {
-    text-decoration: none;
     color: beige;
     font-size: 20px;
-    display: inline-flex;
-    
-    
-    
+
 }
 
 
+/* removed link default color to white */
+.toptitle a{
+    color: white;
+}
 
-aside {
-  flex: 20%;
+li a {
+    color: white;
+}
+
+/* adding hover att */
+a:hover{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* removed underline from links */
+a:link{
+    text-decoration: none;
+    
+}
+.navigation{
+    font-weight: bolder;
+    margin: auto;
+    width: fit-content;
+    padding: 15px;
+    background-color: rgb(183, 177, 124) ;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 10px 10px rgb(100, 0, 102);
+}
+
+
+/* made list items vertical */
+.navigation li{
+    display: inline;
+}
+
+
+#About-Me {
+  color: white;
+  font-size: 40px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(227, 95, 95, 0.872);
+  width: fit-content;
+  border-radius: 15px 50px;
+  box-shadow: 10px 10px 10px 0px rgb(255, 255, 95);
+
+}
+
+#About-Me h2{
+    font-size: 25px;
+    background-color: rgba(0, 191, 255, 0.349);
+    color:  black;
+    padding: 20px;
+}
+
+.Aboutmephoto-img {
+    height: 400px;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 10px 10px rgb(100, 0, 102);
+    padding: 30px; 
+     
+}
+
+#Contact-Me {
+  font-size: 40px;
+  color: azure;
+  margin: auto;
   background-color: rgb(77, 2, 77);
   padding: 20px;
-  flex-wrap: wrap;
-  background-color: rgba(128, 28, 0, 0.872);  
-  box-sizing: content-box;
-  width: ;
-  height: auto;
+  background-color: rgba(128, 28, 0, 0.872);
+  width: fit-content;
+  border-radius: 15px 50px;
+  box-shadow: 10px 10px 10px 10px rgb(100, 0, 102);
+
 }
 
-.photo-img {
-    height: auto;
-    max-width: 15%;
-    background-size: cover;
-    background-position: center;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px rgb(100, 0, 102);
-  }
+#Contact-Me h2{
+    font-size: 25px;
+    background-color: rgba(0, 191, 255, 0.928);
+    color:  black;
+    padding: 20px;
+}
 
+#My-Work{
+    font-size: 40px;
+    color: azure;
+    margin: auto;
+    background-color: rgb(77, 2, 77);
+    padding: 20px;
+    background-color: rgba(128, 28, 0, 0.872);
+    width: fit-content;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 10px 10px rgb(100, 0, 102)
+}
 
+#My-Work h2{
+    font-size: 25px;
+    background-color: rgba(0, 191, 255, 0.928);
+    color:  black;
+    padding: 20px;
+}
