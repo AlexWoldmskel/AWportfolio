@@ -11,17 +11,14 @@ body {
     background-color: #daffb6;
 }
 
+/* added flex container for title */
 .toptitle {
     display: flex;
     justify-content: center;
-  }
-
-header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(purple, blue);
     color: #ffb5f9;
-    display: block;
     font-size: 45px;
 }
 
