@@ -11,7 +11,8 @@
 
 body {
     background-color: gray;
-    
+    display: flex;
+    justify-content: center;
 }
 /* added flex container for title */
 /* centered contents in .toptitle content box */
@@ -30,10 +31,9 @@ body {
     width: fit-content;
     background-color: #248474;
     color: #ffffff;
-    font-size: 30px; 
+    font-size: 50px; 
     padding: 20px;
     color: beige;
-    font-size: 20px;
 
 }
 
@@ -82,7 +82,7 @@ a:link{
   margin: auto;
   padding: 20px;
   background-color: rgba(227, 95, 95, 0.872);
-  width: fit-content;
+  width: 50%;
   border-radius: 15px 50px;
   box-shadow: 10px 10px 10px 0px rgb(255, 255, 95);
 
@@ -100,19 +100,19 @@ a:link{
     border-radius: 15px 50px;
     box-shadow: 10px 10px 10px 10px rgb(100, 0, 102);
     padding: 30px; 
+    background-color: green;
      
 }
 
 #Contact-Me {
   font-size: 40px;
-  color: azure;
+  color: rgb(255, 255, 255);
   margin: auto;
   background-color: rgb(77, 2, 77);
   padding: 20px;
-  background-color: rgba(128, 28, 0, 0.872);
-  width: fit-content;
+  width: 50%;
   border-radius: 15px 50px;
-  box-shadow: 10px 10px 10px 10px rgb(100, 0, 102);
+  box-shadow: 10px 10px 10px 10px rgb(255, 247, 8);
 
 }
 
@@ -130,7 +130,7 @@ a:link{
     background-color: rgb(77, 2, 77);
     padding: 20px;
     background-color: rgba(128, 28, 0, 0.872);
-    width: fit-content;
+    width: 50%;
     border-radius: 15px 50px;
     box-shadow: 10px 10px 10px 10px rgb(100, 0, 102)
 }
@@ -140,4 +140,35 @@ a:link{
     background-color: rgba(0, 191, 255, 0.928);
     color:  black;
     padding: 20px;
+    
 }
+
+.Imagediv {
+    display: flex;
+}
+.image2 {
+    width: 50%;
+    margin: 0;
+}
+.aboveimage {
+    width: 100%;
+    margin: auto;
+}
+
+.bottomimage{
+    width: 100%;
+    margin: 0;
+}
+
+a {
+   margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+      display: block;
+    }    
+#About-Me, #Contact-Me, #My-Work{
+    width: fit-content;
+}
+  }
