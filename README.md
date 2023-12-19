@@ -7,13 +7,15 @@ as well as a screenshot of the page.
 
 The URL of the deployed application.
 
-https://alexwoldmskel.github.io/AWportfolio/ to an external site.
+https://alexwoldmskel.github.io/AWportfolio/ 
+to an external site.
 
  
 
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-https://github.com/AlexWoldmskel/AWportfolio to an external site.
+https://github.com/AlexWoldmskel/AWportfolio 
+to an external site.
 
  
 
